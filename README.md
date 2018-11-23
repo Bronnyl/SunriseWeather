@@ -19,11 +19,11 @@ Even the min and max temperatures appear to be wrong
 
 * Ensure you have Java 8 and Maven 3.3.x installed on your machine.
 * You then need to download the Project zip file. To do this:
-	* a) Click the "Clone or download" button (the green colour button) and select "Download ZIP".
-	* b) Save the zip file (SunriseWeather-master.zip) somewhere on your computer (say in /Users/{yourname}/Projects)
-	* c) Extract the zip file in the same location. After extraction, you would see the folder as /Users/{yourname}/Projects/SunriseWeather-master
+	* Click the "Clone or download" button (the green colour button) and select "Download ZIP".
+	* Save the zip file (SunriseWeather-master.zip) somewhere on your computer (say in /Users/{yourname}/Projects)
+	* Extract the zip file in the same location. After extraction, you would see the folder as /Users/{yourname}/Projects/SunriseWeather-master
 * Open terminal and go to the root folder of the project
-	* a) In other words, go to "cd /Users/{yourname}/Projects/SunriseWeather-master"
+	* In other words, go to "cd /Users/{yourname}/Projects/SunriseWeather-master"
 * Type the following in terminal and hit enter: mvn spring-boot:run
 * The application will be started in a short while.
 * Now you can go to the main page of the Sunrise Weather application by typing the following in your browser: http://localhost:8080/weather
