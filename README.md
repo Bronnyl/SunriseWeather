@@ -7,7 +7,7 @@ Currently supports:
 * Hong Kong
 
 ### TODOs (and Known Issues)
-* The temperature returned in Fahrenheit by OpenWeatherMap.org API seems a bit weird. For example, for London, it returns 279.75 Fahrenheit (which in Celsius is 137.64)
+* The temperature returned in Fahrenheit by OpenWeatherMap.org API seems a bit weird. For example, for London, it returns 279.75 Fahrenheit (which in Celsius is 137.64).
 This does not seem right and needs investigation.
 
 The Json returned by the API does not contain any other field which could be considered as the temperature in Fahrenheit.
