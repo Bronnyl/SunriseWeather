@@ -28,7 +28,7 @@ a) In other words, go to "cd /Users/<yourname>/Projects/SunriseWeather-master"
 * The application will be started in a short while.
 * Now you can go to the main page of the Sunrise Weather application by typing the following in your browser: http://localhost:8080/weather
 
-Note: If you are using Windows, then the folder paths would be \ instead of a /
+Note: If you are using Windows, then the folder paths would be \ instead of a /.
 This application was developed on a Mac OS, and these "Getting Started" instructions were verified on Windows machine.
 
 ## Authors
