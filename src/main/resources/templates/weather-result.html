@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Sunrise Weather</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Weather Result</h1>
+<b th:text="'Date:'" /> <p th:text="${viewModel.date}" />
+<b th:text="'Selected City:'" /> <p th:text="${viewModel.city}" />
+<b th:text="'Brief Weather Description:'" /> <p th:text="${viewModel.description}" />
+<b th:text="'Temperature in Fahrenheit:'" /> <p th:text="${viewModel.temperatureInFahrenheit}" />
+<b th:text="'Temperature in Celsius:'" /> <p th:text="${viewModel.temperatureInCelsius}" />
+<b th:text="'Sunrise:'" /> <p th:text="${viewModel.sunrise}" />
+<b th:text="'Sunset:'" /> <p th:text="${viewModel.sunset}" />
+
+<a href="/weather">Submit another request</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Sunrise Weather</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Welcome to Sunrise Weather</h1>
+<p>Please select a city to see it's weather</p>
+<form action="#" th:action="@{/weather}" th:object="${form}" method="post">
+    <p> City:
+        <select th:field="*{selectedCity}">
+            <option th:value="'London'" th:text="London"></option>
+            <option th:value="'Hong Kong'" th:text="'Hong Kong'"></option>
+        </select>
+    </p>
+    <td th:if="${#fields.hasErrors('selectedCity')}" th:errors="*{selectedCity}">City Error</td>
+    <p><input type="submit" value="Show Weather" /></p>
+</form>
+</body>
+</html>
