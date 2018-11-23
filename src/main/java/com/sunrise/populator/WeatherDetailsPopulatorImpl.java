@@ -14,6 +14,9 @@ import java.util.stream.Collectors;
 
 import static com.sunrise.errors.WeatherErrors.CITY_NOT_SUPPORTED;
 
+/**
+ * Implementation to populate the view model
+ */
 @Component
 public class WeatherDetailsPopulatorImpl implements WeatherDetailsPopulator {
 

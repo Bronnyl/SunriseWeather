@@ -10,6 +10,9 @@ import java.util.Arrays;
 
 import static com.sunrise.errors.WeatherErrors.CITY_NOT_SUPPORTED;
 
+/**
+ * Validator to validate the input specified by the user
+ */
 @Component
 public class WeatherValidator {
 

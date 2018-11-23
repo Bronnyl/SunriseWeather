@@ -1,5 +1,8 @@
 package com.sunrise.data;
 
+/**
+ * Enum to indicate which cities are currently supported by the application
+ */
 public enum SupportedCities {
     LONDON("London", "Europe/London"),
     HONG_KONG("Hong Kong", "Hongkong");

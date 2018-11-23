@@ -5,6 +5,10 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.time.ZonedDateTime;
 
+/**
+ * Object which matches the json returned by the Weather API.
+ * This is the main object.
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WeatherSummary {
 

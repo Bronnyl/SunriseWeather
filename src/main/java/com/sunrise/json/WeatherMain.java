@@ -3,6 +3,9 @@ package com.sunrise.json;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * Object which matches part of the json returned by the Weather API.
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WeatherMain {
 

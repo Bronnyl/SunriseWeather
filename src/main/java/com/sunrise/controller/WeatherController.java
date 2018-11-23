@@ -16,6 +16,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.validation.Valid;
 
+/**
+ * Handles the weather requests
+ */
 @Controller
 public class WeatherController {
 

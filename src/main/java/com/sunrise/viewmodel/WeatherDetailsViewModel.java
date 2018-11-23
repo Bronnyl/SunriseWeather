@@ -1,5 +1,8 @@
 package com.sunrise.viewmodel;
 
+/**
+ * Defines the attributes of the view model used by the view
+ */
 public class WeatherDetailsViewModel {
 
     private String date;

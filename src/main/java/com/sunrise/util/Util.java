@@ -5,6 +5,9 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * A utility class to provide commonly used functions
+ */
 public class Util {
 
     public static String convertFahrenheitToCelsius(String temperatureInFahrenheit) {

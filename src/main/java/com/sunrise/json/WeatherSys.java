@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.time.ZonedDateTime;
 
+/**
+ * Object which matches part of the json returned by the Weather API.
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WeatherSys {
 

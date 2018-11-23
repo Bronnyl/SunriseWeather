@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * Implementation to fetch the Weather data from api.openweathermap.org
+ */
 @Service
 public class WeatherImpl implements Weather {
 
