@@ -1,4 +1,4 @@
-# Project Title
+# Sunrise Weather
 
 A website which returns the current weather data based on a city chosen by the user.
 
